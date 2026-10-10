@@ -6,7 +6,7 @@
   <title>PurePay | Peer to Peer Payment Network</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config={theme:{extend:{colors:{paper:'#f4f8f5',blue:'#3157ff',sky:'#9ee7ff',ice:'#f3f7ff',coral:'#ff7657',line:'#dce5f7'},fontFamily:{sans:['Manrope','ui-sans-serif','system-ui']},boxShadow:{lift:'0 26px 80px rgba(14,35,86,.16)'}}}}
+    tailwind.config={theme:{extend:{colors:{paper:'#f4f8f5',ice:'#f3f7ff',coral:'#ff7657',line:'#dce5f7'},fontFamily:{sans:['Manrope','ui-sans-serif','system-ui']},boxShadow:{lift:'0 26px 80px rgba(14,35,86,.16)'}}}}
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
@@ -32,7 +32,7 @@
   <nav class="fixed w-full z-50 transition-all duration-300 bg-white/80 backdrop-blur-md border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <div class="flex items-center gap-2">
-        <div class="w-8 h-8 rounded-lg bg-blue flex items-center justify-center">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center">
           <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
@@ -75,11 +75,8 @@
         </p>
 
         <div class="flex flex-wrap items-center gap-4">
-          <a href="#demo" class="bg-blue-600 text-white px-8 py-4 rounded-full font-bold shadow-xl shadow-blue-600/30 hover:bg-blue-700 transition-all hover:-translate-y-1">
-            Send Money Now
-          </a>
-          <a href="#roadmap" class="text-slate-600 font-semibold px-6 py-4 flex items-center gap-2 hover:text-slate-900 transition-colors">
-            Learn about security 
+          <a href="#features" class="text-slate-600 font-semibold px-6 py-4 flex items-center gap-2 hover:text-slate-900 transition-colors">
+            Learn more
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
           </a>
         </div>
@@ -148,9 +145,9 @@
     <div class="grid gap-12 lg:grid-cols-[.75fr_1.25fr]"><div><p class="text-sm font-bold uppercase tracking-[.2em]
     text-green">Simple by design</p><h2 class="mt-4 text-4xl font-extrabold tracking-tight sm:text-5xl">From you to them, in three taps.</h2><p class="mt-5 text-lg leading-8 text-black/55">No account numbers to memorize. Scan a QR code, enter the amount and confirm securely.</p></div>
       <div class="grid gap-4 sm:grid-cols-3">
-        <article class="rounded-3xl bg-sky p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">1</span><h3 class="mt-10 text-xl font-bold">Scan a QR</h3><p class="mt-3 text-black/55">Choose from trusted contacts or enter a verified PurePay ID.</p></article>
-        <article class="rounded-3xl bg-sky p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">2</span><h3 class="mt-10 text-xl font-bold">Add an amount</h3><p class="mt-3 text-black/55">See the total and fee before you approve anything.</p></article>
-        <article class="rounded-3xl bg-paper p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">3</span><h3 class="mt-10 text-xl font-bold">Confirm & done</h3><p class="mt-3 text-black/55">Verify with your secure PIN and get an instant receipt.</p></article>
+        <article class="rounded-3xl bg-blue-100 p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">1</span><h3 class="mt-10 text-xl font-bold">Scan a QR</h3><p class="mt-3 text-black/55">Choose from trusted contacts or enter a verified PurePay ID.</p></article>
+        <article class="rounded-3xl bg-blue-200 p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">2</span><h3 class="mt-10 text-xl font-bold">Add an amount</h3><p class="mt-3 text-black/55">See the total and fee before you approve anything.</p></article>
+        <article class="rounded-3xl bg-blue-300 p-6 shadow-soft"><span class="text-5xl font-extrabold text-mint">3</span><h3 class="mt-10 text-xl font-bold">Confirm & done</h3><p class="mt-3 text-black/55">Verify with your secure PIN and get an instant receipt.</p></article>
       </div>
     </div>
   </section>
